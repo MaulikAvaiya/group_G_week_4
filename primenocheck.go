@@ -14,9 +14,10 @@ func isPrime(n int) bool {
     return true
 }
 
-func CheckPrime(number int) {
-    fmt.Println("Enter a number to check if it's prime: ")
-
+func CheckPrime() {
+	fmt.Println("Enter a number to check no is prime or not: ")
+	var number int
+    fmt.Scan(&number)
     if isPrime(number) {
         fmt.Println(number, "is a prime number.\n")
     } else {
