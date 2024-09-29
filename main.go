@@ -19,5 +19,7 @@ func main() {
 	name := "Himani"
 	fmt.Println("Reversed String is: ", RevString(name))
 
-}
+	//Shikhar Gupta
+	Pyramid()
 
+}
