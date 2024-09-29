@@ -9,17 +9,18 @@ func main() {
 	grade() // This funtion I made for giving grades according to 3 subject's marks of the students.
 
 	//Jenish gaudani
-	Multiplication()
+	Multiply()
 	//Hetvi Patel
 	printFibonacci()
+	//Shikhar Gupta
+	Pyramid()
 	//Maulik Avaiya
 	CheckPrime()
 	//Himani Patel
-	fmt.Println("Welcome to Group A's Week 4 Project!")
 	name := "Himani"
 	fmt.Println("Reversed String is: ", RevString(name))
 
-	//Shikhar Gupta
-	Pyramid()
+	//Meghav Shah
+	Largest()
 
 }
